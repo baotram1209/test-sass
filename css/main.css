@@ -20,15 +20,23 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 80%;
   margin: 0 auto;
 }
 
-.main .main-paragraph {
+.main .main-paragraph1, .main .main-paragraph2 {
   font-weight: 700;
 }
 
-.main .main-paragraph:hover {
+.main .main-paragraph1:hover, .main .main-paragraph2:hover {
   color: pink;
+}
+
+.main .main-paragraph2:hover {
+  color: yellow;
 }
 /*# sourceMappingURL=main.css.map */
